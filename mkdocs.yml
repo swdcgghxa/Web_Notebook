@@ -34,7 +34,7 @@ nav:
     - Getting Started: getting-started.md
     - User Guide:
         - ASGI: Asgi.md
-        - Installation: user-guide/installation.md
+        - 方案.md: 方案.md
         - Writing Your Docs: user-guide/writing-your-docs.md
         - Choosing Your Theme: choosing-your-theme.md
         - Customizing Your Theme: user-guide/customizing-your-theme.md
