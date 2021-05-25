@@ -30,7 +30,7 @@ extra_javascript:
   - javascripts/tables.js
 
 nav:
-    - python-web-framework:
+    - Python Web Framework:
         - Pyramid: "python-web-framework/Pyramid.md"
         - Djangorestframework: "python-web-framework/Djangorestframework.md"
         - Twisted: "python-web-framework/Twisted.md"
