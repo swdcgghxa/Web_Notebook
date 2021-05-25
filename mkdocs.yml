@@ -30,23 +30,26 @@ extra_javascript:
   - javascripts/tables.js
 
 nav:
-    - Home: index.md
-    - Getting Started: getting-started.md
-    - User Guide:
+    - python-web-framework:
+        - Pyramid: "python-web-framework/Pyramid.md"
+        - Djangorestframework: "python-web-framework/Djangorestframework.md"
+        - Twisted: "python-web-framework/Twisted.md"
+        - 訂製 Web 框架: "python-web-framework/訂製 Web 框架.md"
+        - 框架參考.md: "python-web-framework/框架參考.md"
+    - Python Web Gateway:
         - ASGI: Asgi.md
+        - WSGI: Wsgi.md
+    - Python Web Deploy:
         - 方案.md: 方案.md
-        - Writing Your Docs: user-guide/writing-your-docs.md
-        - Choosing Your Theme: choosing-your-theme.md
-        - Customizing Your Theme: user-guide/customizing-your-theme.md
-        - Localizing Your Theme: user-guide/localizing-your-theme.md
-        - Configuration: user-guide/configuration.md
-        - Deploying Your Docs: user-guide/deploying-your-docs.md
-    - Developer Guide:
-        - Overview: dev-guide/index.md
-        - Themes: dev-guide/themes.md
-        - Translations: dev-guide/translations.md
-        - Plugins: dev-guide/plugins.md
-    - About:
-        - Release Notes: about/release-notes.md
-        - Contributing: about/contributing.md
-        - License: about/license.md
+        - 安全: 安全.md
+        - Tools: Tools.md
+
+    - Web 負載均衡:
+        - 負載均衡: 負載均衡.md
+    - 其他:
+        - Xamarin: Xamarin.md
+        - Web節奏: Web節奏.md
+        - Git: Git.md
+        - SSH: Shh.md
+        - DataBase: DataBase.md
+    - Mk-docs: index.md
