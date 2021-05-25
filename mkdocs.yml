@@ -1,0 +1,42 @@
+site_name: Web研究 MkDocs
+dev_addr: localhost:1234
+theme: material
+markdown_extensions:
+  - attr_list
+  - pymdownx.keys
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+
+# plugins:
+#   - macros
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+
+nav:
+    - Home: index.md
+    - Getting Started: getting-started.md
+    - User Guide:
+        - ASGI: Asgi.md
+        - Installation: user-guide/installation.md
+        - Writing Your Docs: user-guide/writing-your-docs.md
+        - Choosing Your Theme: choosing-your-theme.md
+        - Customizing Your Theme: user-guide/customizing-your-theme.md
+        - Localizing Your Theme: user-guide/localizing-your-theme.md
+        - Configuration: user-guide/configuration.md
+        - Deploying Your Docs: user-guide/deploying-your-docs.md
+    - Developer Guide:
+        - Overview: dev-guide/index.md
+        - Themes: dev-guide/themes.md
+        - Translations: dev-guide/translations.md
+        - Plugins: dev-guide/plugins.md
+    - About:
+        - Release Notes: about/release-notes.md
+        - Contributing: about/contributing.md
+        - License: about/license.md
