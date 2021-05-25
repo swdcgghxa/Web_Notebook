@@ -7,6 +7,8 @@ repo_name: GitHub
 repo_url: https://github.com/swdcgghxa/Web_Notebook
 
 theme:
+  icon:
+    repo: fontawesome/brands/git-square
   name: material
 
 markdown_extensions:
@@ -30,26 +32,26 @@ extra_javascript:
   - javascripts/tables.js
 
 nav:
+    - Home: index.md
     - Python Web Framework:
-        - Pyramid: "python-web-framework/Pyramid.md"
-        - Djangorestframework: "python-web-framework/Djangorestframework.md"
-        - Twisted: "python-web-framework/Twisted.md"
-        - 訂製 Web 框架: "python-web-framework/訂製 Web 框架.md"
-        - 框架參考.md: "python-web-framework/框架參考.md"
+        - Pyramid: python-web-framework/Pyramid.md
+        - Djangorestframework: python-web-framework/Djangorestframework.md
+        - Twisted: python-web-framework/Twisted.md
+        - 訂製 Web 框架: python-web-framework/訂製 Web 框架.md
+        - 框架參考.md: python-web-framework/框架參考.md
     - Python Web Gateway:
-        - ASGI: Asgi.md
-        - WSGI: Wsgi.md
+        - ASGI: python-web-gateway\Asgi.md
+        - WSGI: python-web-gateway\Wsgi.md
     - Python Web Deploy:
-        - 方案.md: 方案.md
-        - 安全: 安全.md
-        - Tools: Tools.md
-
+        - Deploy方案: python-web-deploy/方案.md
+        - 安全: python-web-deploy/安全.md
+        - Tools: python-web-deploy/Tools.md
     - Web 負載均衡:
         - 負載均衡: 負載均衡.md
     - 其他:
-        - Xamarin: Xamarin.md
-        - Web節奏: Web節奏.md
-        - Git: Git.md
-        - SSH: Shh.md
-        - DataBase: DataBase.md
-    - Mk-docs: index.md
+        - Xamarin: 其他/Xamarin.md
+        - Web節奏: 其他/Web節奏.md
+        - Git: 其他/Git.md
+        - SSH: 其他/Ssh轉發.md
+        - DataBase: 其他/DataBase.md
+    - MkDocs: MkDocs.md
