@@ -4,7 +4,7 @@ site_dir: docs
 docs_dir: md
 dev_addr: localhost:1234
 repo_name: GitHub
-repo_url: https://github.com/example/repository/
+repo_url: https://github.com/swdcgghxa/Web_Notebook
 
 theme:
   name: material
