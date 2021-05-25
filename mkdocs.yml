@@ -1,8 +1,10 @@
 site_name: Web研究 MkDocs
 site_url: https://swdcgghxa.github.io/Web_Notebook
-dev_addr: localhost:1234
-docs_dir: md
 site_dir: docs
+docs_dir: md
+dev_addr: localhost:1234
+repo_name: GitHub
+repo_url: https://github.com/example/repository/
 
 theme:
   name: material
