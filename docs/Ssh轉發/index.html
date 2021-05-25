@@ -9,6 +9,8 @@
       
       
       
+        <link rel="canonical" href="https://swdcgghxa.github.io/Web_Notebook/Ssh%E8%BD%89%E7%99%BC/">
+      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4">
     
@@ -491,14 +493,14 @@
               
                 
                 
-                <h1 id="-l">本地轉發/正向代理(-L)</h1>
+                <h1 id="-l">本地轉發/正向代理(-L)<a class="headerlink" href="#-l" title="Permanent link">&para;</a></h1>
 <p>在本地啟動端口，把本地端口數據轉發到遠端。
 ssh -N -L localhost:8000:iqm.ddns.net:8000 us@iqm.ddns.net</p>
-<h1 id="socks5-d">動態代理/socks5代理(-D)</h1>
+<h1 id="socks5-d">動態代理/socks5代理(-D)<a class="headerlink" href="#socks5-d" title="Permanent link">&para;</a></h1>
 <p>SwitchyOmega 在鍵入socks5://127.0.0.1:8888代理
 ssh -C -T -N -D 127.0.0.1:8888 us@iqm.ddns.net
 curl -i --proxy socks5://127.0.0.1:8888 ifconfig.me</p>
-<h1 id="-r">遠端代理/反向代理(-R)</h1>
+<h1 id="-r">遠端代理/反向代理(-R)<a class="headerlink" href="#-r" title="Permanent link">&para;</a></h1>
 <p>ssh -T -N -R iqm.ddns.net:8088:localhost:5000 us@iqm.ddns.net</p>
 <p>-C為壓縮數據
 -q安靜模式
