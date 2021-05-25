@@ -16,7 +16,7 @@
     
     
       
-        <title>nginx實現負載均衡的策略有如下幾種方法： - Web研究 MkDocs</title>
+        <title>負載均衡 - Web研究 MkDocs</title>
       
     
     
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              nginx實現負載均衡的策略有如下幾種方法：
+              負載均衡
             
           </span>
         </div>
@@ -136,7 +136,7 @@
 <a href="https://github.com/swdcgghxa/Web_Notebook/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.59 334.24c48.57 3.31 58.95 2.11 58.95 11.94 0 20-65.55 20.06-65.55 1.52.01-5.09 3.29-9.4 6.6-13.46zm27.95-116.64c-32.29 0-33.75 44.47-.75 44.47 32.51 0 31.71-44.47.75-44.47zM448 80v352a48 48 0 0 1-48 48H48a48 48 0 0 1-48-48V80a48 48 0 0 1 48-48h352a48 48 0 0 1 48 48zm-227 69.31c0 14.49 8.38 22.88 22.86 22.88 14.74 0 23.13-8.39 23.13-22.88S258.62 127 243.88 127c-14.48 0-22.88 7.84-22.88 22.31zM199.18 195h-49.55c-25-6.55-81.56-4.85-81.56 46.75 0 18.8 9.4 32 21.85 38.11C74.23 294.23 66.8 301 66.8 310.6c0 6.87 2.79 13.22 11.18 16.76-8.9 8.4-14 14.48-14 25.92C64 373.35 81.53 385 127.52 385c44.22 0 69.87-16.51 69.87-45.73 0-36.67-28.23-35.32-94.77-39.38l8.38-13.43c17 4.74 74.19 6.23 74.19-42.43 0-11.69-4.83-19.82-9.4-25.67l23.38-1.78zm84.34 109.84-13-1.78c-3.82-.51-4.07-1-4.07-5.09V192.52h-52.6l-2.79 20.57c15.75 5.55 17 4.86 17 10.17V298c0 5.62-.31 4.58-17 6.87v20.06h72.42zM384 315l-6.87-22.37c-40.93 15.37-37.85-12.41-37.85-16.73v-60.72h37.85v-25.41h-35.82c-2.87 0-2 2.52-2-38.63h-24.18c-2.79 27.7-11.68 38.88-34 41.42v22.62c20.47 0 19.82-.85 19.82 2.54v66.57c0 28.72 11.43 40.91 41.67 40.91 14.45 0 30.45-4.83 41.38-10.2z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -179,7 +179,7 @@
 <a href="https://github.com/swdcgghxa/Web_Notebook/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.59 334.24c48.57 3.31 58.95 2.11 58.95 11.94 0 20-65.55 20.06-65.55 1.52.01-5.09 3.29-9.4 6.6-13.46zm27.95-116.64c-32.29 0-33.75 44.47-.75 44.47 32.51 0 31.71-44.47.75-44.47zM448 80v352a48 48 0 0 1-48 48H48a48 48 0 0 1-48-48V80a48 48 0 0 1 48-48h352a48 48 0 0 1 48 48zm-227 69.31c0 14.49 8.38 22.88 22.86 22.88 14.74 0 23.13-8.39 23.13-22.88S258.62 127 243.88 127c-14.48 0-22.88 7.84-22.88 22.31zM199.18 195h-49.55c-25-6.55-81.56-4.85-81.56 46.75 0 18.8 9.4 32 21.85 38.11C74.23 294.23 66.8 301 66.8 310.6c0 6.87 2.79 13.22 11.18 16.76-8.9 8.4-14 14.48-14 25.92C64 373.35 81.53 385 127.52 385c44.22 0 69.87-16.51 69.87-45.73 0-36.67-28.23-35.32-94.77-39.38l8.38-13.43c17 4.74 74.19 6.23 74.19-42.43 0-11.69-4.83-19.82-9.4-25.67l23.38-1.78zm84.34 109.84-13-1.78c-3.82-.51-4.07-1-4.07-5.09V192.52h-52.6l-2.79 20.57c15.75 5.55 17 4.86 17 10.17V298c0 5.62-.31 4.58-17 6.87v20.06h72.42zM384 315l-6.87-22.37c-40.93 15.37-37.85-12.41-37.85-16.73v-60.72h37.85v-25.41h-35.82c-2.87 0-2 2.52-2-38.63h-24.18c-2.79 27.7-11.68 38.88-34 41.42v22.62c20.47 0 19.82-.85 19.82 2.54v66.57c0 28.72 11.43 40.91 41.67 40.91 14.45 0 30.45-4.83 41.38-10.2z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -211,10 +211,85 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Python Web Framework
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Python Web Framework" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Python Web Framework
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../getting-started.md" class="md-nav__link">
-        Getting Started
+      <a href="../python-web-framework/Pyramid/" class="md-nav__link">
+        Pyramid
       </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python-web-framework/Djangorestframework/" class="md-nav__link">
+        Djangorestframework
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python-web-framework/Twisted/" class="md-nav__link">
+        Twisted
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python-web-framework/%E8%A8%82%E8%A3%BD%20Web%20%E6%A1%86%E6%9E%B6/" class="md-nav__link">
+        訂製 Web 框架
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python-web-framework/%E6%A1%86%E6%9E%B6%E5%8F%83%E8%80%83/" class="md-nav__link">
+        框架參考.md
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -233,13 +308,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       <label class="md-nav__link" for="__nav_3">
-        User Guide
+        Python Web Gateway
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="User Guide" data-md-level="1">
+      <nav class="md-nav" aria-label="Python Web Gateway" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          User Guide
+          Python Web Gateway
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -248,7 +323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Asgi/" class="md-nav__link">
+      <a href="../python-web-gateway/Asgi/" class="md-nav__link">
         ASGI
       </a>
     </li>
@@ -260,80 +335,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../%E6%96%B9%E6%A1%88/" class="md-nav__link">
-        方案.md
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../user-guide/writing-your-docs.md" class="md-nav__link">
-        Writing Your Docs
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../choosing-your-theme.md" class="md-nav__link">
-        Choosing Your Theme
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../user-guide/customizing-your-theme.md" class="md-nav__link">
-        Customizing Your Theme
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../user-guide/localizing-your-theme.md" class="md-nav__link">
-        Localizing Your Theme
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../user-guide/configuration.md" class="md-nav__link">
-        Configuration
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../user-guide/deploying-your-docs.md" class="md-nav__link">
-        Deploying Your Docs
+      <a href="../python-web-gateway/Wsgi/" class="md-nav__link">
+        WSGI
       </a>
     </li>
   
@@ -359,13 +362,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       <label class="md-nav__link" for="__nav_4">
-        Developer Guide
+        Python Web Deploy
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Developer Guide" data-md-level="1">
+      <nav class="md-nav" aria-label="Python Web Deploy" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Developer Guide
+          Python Web Deploy
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -374,8 +377,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../dev-guide/index.md" class="md-nav__link">
-        Overview
+      <a href="../python-web-deploy/%E6%96%B9%E6%A1%88/" class="md-nav__link">
+        Deploy方案
       </a>
     </li>
   
@@ -386,8 +389,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../dev-guide/themes.md" class="md-nav__link">
-        Themes
+      <a href="../python-web-deploy/%E5%AE%89%E5%85%A8/" class="md-nav__link">
+        安全
       </a>
     </li>
   
@@ -398,21 +401,63 @@
   
   
     <li class="md-nav__item">
-      <a href="../dev-guide/translations.md" class="md-nav__link">
-        Translations
+      <a href="../python-web-deploy/Tools/" class="md-nav__link">
+        Tools
       </a>
     </li>
   
 
           
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        Web 負載均衡
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Web 負載均衡" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Web 負載均衡
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../dev-guide/plugins.md" class="md-nav__link">
-        Plugins
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        負載均衡
       </a>
+      
     </li>
   
 
@@ -434,16 +479,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
-      <label class="md-nav__link" for="__nav_5">
-        About
+      <label class="md-nav__link" for="__nav_6">
+        其他
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="About" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+      <nav class="md-nav" aria-label="其他" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          About
+          其他
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -452,8 +497,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/release-notes.md" class="md-nav__link">
-        Release Notes
+      <a href="../%E5%85%B6%E4%BB%96/Xamarin/" class="md-nav__link">
+        Xamarin
       </a>
     </li>
   
@@ -464,8 +509,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/contributing.md" class="md-nav__link">
-        Contributing
+      <a href="../%E5%85%B6%E4%BB%96/Web%E7%AF%80%E5%A5%8F/" class="md-nav__link">
+        Web節奏
       </a>
     </li>
   
@@ -476,8 +521,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/license.md" class="md-nav__link">
-        License
+      <a href="../%E5%85%B6%E4%BB%96/Git/" class="md-nav__link">
+        Git
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%85%B6%E4%BB%96/Ssh%E8%BD%89%E7%99%BC/" class="md-nav__link">
+        SSH
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%85%B6%E4%BB%96/DataBase/" class="md-nav__link">
+        DataBase
       </a>
     </li>
   
@@ -485,6 +554,21 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MkDocs/" class="md-nav__link">
+        MkDocs
+      </a>
     </li>
   
 
@@ -527,10 +611,10 @@
 <ul>
 <li>輪詢(Round-Robin)</li>
 <li>加權輪詢(WeightedRound-Robin)</li>
-<li>IP雜湊(IP hash)</li>
+<li>&amp;IP雜湊(IP hash)</li>
 <li>最少連接分配(Least Connections)</li>
 <li>Fair原則</li>
-<li>sticky cookie insert</li>
+<li>&amp;sticky cookie insert</li>
 </ul>
                 
               
@@ -547,6 +631,39 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../python-web-deploy/Tools/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Tools
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../%E5%85%B6%E4%BB%96/Xamarin/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Xamarin
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
