@@ -1,6 +1,12 @@
 site_name: Web研究 MkDocs
+site_url: https://swdcgghxa.github.io/Web_Notebook
 dev_addr: localhost:1234
-theme: material
+docs_dir: md
+site_dir: docs
+
+theme:
+  name: material
+
 markdown_extensions:
   - attr_list
   - pymdownx.keys
@@ -10,6 +16,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid-experimental
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: True
   - pymdownx.tabbed
 
 # plugins:
